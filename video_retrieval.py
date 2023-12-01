@@ -9,7 +9,7 @@ load_dotenv()
 
 apiKey = os.getenv('AZURE_VISION_KEY')
 endpoint = os.getenv('AZURE_VISION_ENDPOINT')
-root_uri = "https://" + endpoint  + "computervision/retrieval/indexes/"
+root_uri = endpoint  + "computervision/retrieval/indexes/"
 apiversion = "?api-version=2023-05-01-preview"
 headers = {
     'Ocp-Apim-Subscription-Key' : apiKey,
