@@ -104,7 +104,7 @@ def search_by_text(index_name):
 
     resource = root_uri + index_name + ":queryByText" + apiversion
     body = {
-        'queryText': 'an apple',
+        'queryText': 'a butterfly',
         # 'filters': {
             # 'stringFilters': [
             # {

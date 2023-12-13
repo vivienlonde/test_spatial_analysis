@@ -8,7 +8,7 @@ apiKey = os.getenv('AZURE_VISION_KEY')
 endpoint = os.getenv('AZURE_VISION_ENDPOINT')
 service_options = visionsdk.VisionServiceOptions(endpoint, apiKey)
 
-vision_source = visionsdk.VisionSource(filename='data/frame72.jpg')
+vision_source = visionsdk.VisionSource(filename='data/frame744.jpg')
 
 analysis_options = visionsdk.ImageAnalysisOptions()
 

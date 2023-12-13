@@ -39,5 +39,5 @@ Update filenames in *extract_frame.py*.
 -> input to *extract_frame.py*
 
 - the output of *extract_frame.py* is the input of *image_analysis.py*.  
--> Update filenmanes accordingly.
+-> Update filenames accordingly.
 

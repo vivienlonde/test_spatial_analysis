@@ -28,5 +28,5 @@ def extract_frames_from_interval(start, end, video_path, nb_frames):
 
 if __name__ == "__main__":
 
-    extract_frame_from_time(3, 'data/videoRabbitOneMinute.mp4')
+    extract_frame_from_time(31, 'data/videoRabbitOneMinute.mp4')
     # extract_frames_from_interval(2, 60, 'data/videoRabbitOneMinute.mp4', 10)
